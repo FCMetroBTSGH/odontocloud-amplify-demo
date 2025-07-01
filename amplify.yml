@@ -3,7 +3,7 @@ frontend:
   phases:
     preBuild:
       commands:
-        - cd odontocloud_amplify_demo  
+        - cd odontocloud_amplify_demo   #
         - npm install
     build:
       commands:
@@ -15,4 +15,3 @@ frontend:
   cache:
     paths:
       - node_modules/**/*
-
