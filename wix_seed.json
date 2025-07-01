@@ -1,0 +1,34 @@
+{
+  "specialties": [
+    {
+      "code": "PERIO",
+      "name": "Periodontics"
+    },
+    {
+      "code": "OS",
+      "name": "Oral Surgery"
+    },
+    {
+      "code": "ENDO",
+      "name": "Endodontics"
+    }
+  ],
+  "procedures": [
+    {
+      "specialtyCode": "PERIO",
+      "name": "Comprehensive Periodontal Evaluation"
+    },
+    {
+      "specialtyCode": "PERIO",
+      "name": "Periodontal Maintenance"
+    },
+    {
+      "specialtyCode": "OS",
+      "name": "Wisdom Teeth Extraction"
+    },
+    {
+      "specialtyCode": "ENDO",
+      "name": "Root Canal Therapy"
+    }
+  ]
+}
