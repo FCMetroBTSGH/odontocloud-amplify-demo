@@ -3,12 +3,12 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm install          # ← no “cd”
+        - npm install        
     build:
       commands:
         - npm run build
   artifacts:
-    baseDirectory: .next       # ← no sub-folder prefix
+    baseDirectory: .next      
     files:
       - '**/*'
   cache:
