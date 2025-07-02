@@ -3,7 +3,6 @@ frontend:
   phases:
     preBuild:
       commands:
-        - cd odontocloud-amplify-demo
         - npm install
     build:
       commands:
