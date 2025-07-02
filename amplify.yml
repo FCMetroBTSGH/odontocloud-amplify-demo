@@ -3,13 +3,13 @@ frontend:
   phases:
     preBuild:
       commands:
-        - cd odontocloud_amplify-demo
+        - cd odontocloud-amplify-demo
         - npm install
     build:
       commands:
         - npm run build
   artifacts:
-    baseDirectory: odontocloud_amplify-demo/.next
+    baseDirectory: odontocloud-amplify-demo/.next
     files:
       - '**/*'
   cache:
