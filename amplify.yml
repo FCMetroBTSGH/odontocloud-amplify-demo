@@ -3,15 +3,14 @@ frontend:
   phases:
     preBuild:
       commands:
-        - cd patientpath_amplify_demo
         - npm install
     build:
       commands:
         - npm run build
   artifacts:
-    baseDirectory: patientpath_amplify_demo/.next
+    baseDirectory: .next
     files:
       - '**/*'
   cache:
     paths:
-      - patientpath_amplify_demo/node_modules/**/* 
+      - node_modules/**/*
